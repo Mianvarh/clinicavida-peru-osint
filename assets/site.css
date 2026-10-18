@@ -69,7 +69,7 @@ a:hover { color: var(--green-900); }
 .topbar .container { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .35rem 1.5rem; padding-top: .5rem; padding-bottom: .5rem; }
 .topbar-badge { display: inline-flex; align-items: center; gap: .45rem; font-weight: 600; color: #fff; }
 .topbar-badge::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--teal-300); }
-.topbar-info { display: inline-flex; flex-wrap: wrap; align-items: center; gap: .4rem 1.25rem; }
+.topbar-info { margin-left: auto; display: inline-flex; flex-wrap: wrap; align-items: center; gap: .4rem 1.25rem; }
 .topbar-info span { display: inline-flex; align-items: center; gap: .35rem; }
 .topbar a { color: #fff; text-decoration: none; }
 .topbar a:hover { text-decoration: underline; color: #fff; }
@@ -465,7 +465,7 @@ tbody tr:hover { background: #fbfefd; }
 @media (max-width: 640px) {
   .container { padding: 0 1.1rem; }
   .topbar .container { justify-content: center; text-align: center; }
-  .topbar-info { justify-content: center; }
+  .topbar-info { justify-content: center; margin: 0 auto; }
   .site-header { position: sticky; }
   .brand-tag { display: none; }
   h1 { font-size: clamp(2rem, 8vw, 2.5rem); }
