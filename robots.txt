@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /clinicavida-peru-osint/
+Disallow: /clinicavida-peru-osint/archivo/
+Disallow: /clinicavida-peru-osint/intranet/
+Sitemap: https://mianvarh.github.io/clinicavida-peru-osint/sitemap.xml
